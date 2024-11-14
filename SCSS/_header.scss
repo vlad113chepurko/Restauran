@@ -1,0 +1,89 @@
+/* || Container Header */
+.header {
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo-top {
+    font-family: 'Italianno';
+    margin-top: 37px;
+    font-weight: 400;
+    font-size: 70px;
+    color: #fff;
+}
+
+.header-logo-bottom .header-logo-cb .header-logo-ct {
+    font-family: 'Kufam';
+}
+
+.header-logo-ct {
+    color: $logo-top;
+    font-weight: 400;
+    font-size: 100px;
+    color: #edb288;
+    margin-left: 100px;
+    margin-top: 180px;
+    letter-spacing: 3px;
+    width: 1300px;
+}
+
+
+.header-logo-cb {
+    color: $logo-bottom;
+    font-weight: 400;
+    font-size: 60px;
+    letter-spacing: 3px;
+    color: #f1ceb5;
+    width: 800px;
+    height: 60px;
+    margin-left: 226px;
+    margin-bottom: 37px;
+}
+
+.header-logo-bottom {
+    font-weight: 400;
+    font-size: 34px;
+    color: #fff;
+    margin-top: 102px;
+}
+
+.header nav {
+    background-color: white;
+    width: 680px;
+    height: 93px;
+    margin-top: 264px;
+    border-radius: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header a {
+    color: black;
+    margin-right: 47px;
+
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    font-family: "Kufam";
+    text-decoration: none;
+}
+
+.header nav button{
+    width: 38px;
+    height: 41px;
+    margin-right: 47px;
+    background-image: url(/Images/Time-bar.png);
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}

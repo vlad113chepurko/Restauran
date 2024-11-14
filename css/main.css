@@ -1,0 +1,338 @@
+/* || Container Header */
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400..900;1,400..900&display=swap");
+.header {
+  width: 800px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo-top {
+  font-family: "Italianno";
+  margin-top: 37px;
+  font-weight: 400;
+  font-size: 70px;
+  color: #fff;
+}
+
+.header-logo-bottom .header-logo-cb .header-logo-ct {
+  font-family: "Kufam";
+}
+
+.header-logo-ct {
+  color: #EDB288;
+  font-weight: 400;
+  font-size: 100px;
+  color: #edb288;
+  margin-left: 100px;
+  margin-top: 180px;
+  letter-spacing: 3px;
+  width: 1300px;
+}
+
+.header-logo-cb {
+  color: #F1CEB5;
+  font-weight: 400;
+  font-size: 60px;
+  letter-spacing: 3px;
+  color: #f1ceb5;
+  width: 800px;
+  height: 60px;
+  margin-left: 226px;
+  margin-bottom: 37px;
+}
+
+.header-logo-bottom {
+  font-weight: 400;
+  font-size: 34px;
+  color: #fff;
+  margin-top: 102px;
+}
+
+.header nav {
+  background-color: white;
+  width: 680px;
+  height: 93px;
+  margin-top: 264px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header a {
+  color: black;
+  margin-right: 47px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+  font-family: "Kufam";
+  text-decoration: none;
+}
+
+nav button {
+  width: 38px;
+  height: 41px;
+  margin-right: 47px;
+  background-image: url(/Images/Time-bar.png);
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px auto;
+  width: 1340px;
+  max-width: 2000px;
+  height: auto;
+}
+
+.section-menu {
+  font-family: "Kufam";
+  font-weight: 400;
+  font-size: 50px;
+  margin-bottom: 140px;
+  color: #fff;
+}
+
+.container-images {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.container-images p {
+  font-weight: 400;
+  font-size: 34px;
+  width: auto;
+  height: 100px;
+  color: #fff;
+  font-family: "Kufam";
+}
+
+.description {
+  margin: 0;
+}
+
+.price {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding-top: 64px;
+}
+
+.container-images p span {
+  color: #EDB288;
+  padding-left: 10px;
+}
+
+.image1 {
+  float: left;
+  border-radius: 10px;
+  width: 240px;
+  height: 240px;
+  background-size: cover;
+  margin-bottom: 100px;
+  margin-right: 15px;
+  cursor: pointer;
+  box-shadow: inset 1px 1px 5px black, inset -1px -1px 5px black;
+  background-image: url(/Images/1.jpg);
+}
+
+.image2 {
+  float: left;
+  border-radius: 10px;
+  width: 240px;
+  height: 240px;
+  background-size: cover;
+  margin-bottom: 100px;
+  margin-right: 15px;
+  cursor: pointer;
+  box-shadow: inset 1px 1px 5px black, inset -1px -1px 5px black;
+  background-image: url(/Images/2.jpg);
+}
+
+.image3 {
+  float: left;
+  border-radius: 10px;
+  width: 240px;
+  height: 240px;
+  background-size: cover;
+  margin-bottom: 100px;
+  margin-right: 15px;
+  cursor: pointer;
+  box-shadow: inset 1px 1px 5px black, inset -1px -1px 5px black;
+  background-image: url(/Images/3.jpg);
+}
+
+.image4 {
+  float: left;
+  border-radius: 10px;
+  width: 240px;
+  height: 240px;
+  background-size: cover;
+  margin-bottom: 100px;
+  margin-right: 15px;
+  cursor: pointer;
+  box-shadow: inset 1px 1px 5px black, inset -1px -1px 5px black;
+  background-image: url(/Images/4.jpg);
+}
+
+.footer {
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: linear-gradient(180deg, #1f1714 0%, #0d0a0a 47.68%, #0c0809 76.93%, #080607 94.52%);
+  display: flex;
+  justify-content: center;
+}
+
+.footer ul li:first-child {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+ul li {
+  margin-bottom: 11px;
+  margin-right: 65px;
+  font-family: "Kufam";
+  font-weight: 400;
+  font-size: 25px;
+  color: #fff;
+}
+
+.footer a {
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #F1CEB5;
+  text-decoration: underline;
+}
+
+ul span li:nth-child(2) {
+  font-family: "Kufam";
+  font-weight: 700;
+  font-size: 30px;
+  color: #f1ccb4;
+}
+
+footer h1 {
+  text-align: center;
+  font-style: italic;
+  font-family: "Italianno";
+  font-size: 60px;
+  letter-spacing: 2px;
+  background-color: #1f1714;
+  padding: 5px;
+  border: 5px solid none;
+  width: 100%;
+  position: absolute;
+  margin-top: 500px;
+}
+
+.color {
+  color: #f1ccb4;
+}
+
+ul span li:nth-child(3) {
+  font-family: "Kufam";
+  font-weight: 700;
+  font-size: 30px;
+  color: #f1ccb4;
+}
+
+ul span li:nth-child(4) {
+  background-image: url(/Images/Footer/Telegram.png);
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  background-position: left center;
+  padding-left: 60px;
+}
+
+ul span li:nth-child(5) {
+  background-image: url(/Images/Footer/Message.png);
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  background-position: left center;
+  padding-left: 60px;
+}
+
+ul span li:nth-child(6) {
+  background-image: url(/Images/Footer/Message2.png);
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  background-position: left center;
+  padding-left: 60px;
+}
+
+ul span li:nth-child(7) {
+  background-image: url(/Images/Footer/Viber.png);
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  background-position: left center;
+  padding-left: 60px;
+}
+
+/* Fonts Imp*/
+/* Fonts */
+:root {
+  --Italliano: var("Italianno");
+  --Kufam: var("Kufam");
+}
+
+/* || Global variables */
+* {
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(/Images/Back-Restouran.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  backdrop-filter: blur(10px);
+  zoom: 0.7;
+}/*# sourceMappingURL=main.css.map */
